@@ -1,6 +1,6 @@
 *{box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box;}
 html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,p,form,dl,dt,dd,figure{margin:0; padding:0; border:0;}
-body{line-height:1.6em; font-family:Helvetica, Arial, sans-serif; color:#555;}
+body{line-height:1.6em; font-family:Helvetica, Arial, sans-serif; color:#555;background:#eee;}
 a{margin:0 2px; color:#06c; text-decoration:none;}
 a:hover{text-decoration:underline;}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{margin:0;}
@@ -11,7 +11,7 @@ header{font-size:80%;}
 header h1 .minor{color:#999; font-weight:normal;}
 header .additional{font-size:90%; color:#ccc;}
 
-.main{position:relative; zoom:1; width:62%; padding:2em 3em;}
+.main{position:relative; zoom:1; left:100px;width:62%; padding:2em 3em;}
 side{position:fixed; left:62%; top:0; right:0; height:100%; overflow:hidden; padding:2em 3em; background:#eee; box-shadow:5px 0 5px rgba(0,0,0,.1) inset; font-size:75%;}
 side h2{margin:1em 0;}
 side .feed-link{margin-left:0.5em;}

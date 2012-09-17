@@ -1,5 +1,7 @@
-Jekyll主题: SimpleGray
+微笑的世界 博客 Github 所在
 ======
+
+由 Jekyll主题: SimpleGray 驱动
 
 这是一个由[造轮子工程师][]设计的jekyll站点主题，中文名称：**极简灰**。
 

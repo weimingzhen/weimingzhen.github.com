@@ -16,7 +16,7 @@
 
 
 <div class="left_side">
-A
+AAAAAAAAAAAA事实上
 </div>
 
 <div class="main">

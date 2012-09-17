@@ -73,6 +73,9 @@ category: life
 
 上面是 Python代码
 
+图片示例
+
+![微笑宝的微博用图](zphygy.JPG  "微笑宝的微博用图")
 
 
 {% include references.md %}

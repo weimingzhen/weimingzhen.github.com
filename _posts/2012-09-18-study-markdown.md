@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 学习 MarkDown 标记语言
-category: life
+category: study
 ---
 
 利用这篇文章学习 [Markdown: Basics （快速入门）](http://wowubuntu.com/markdown/basic.html)
@@ -83,7 +83,7 @@ category: life
 
 下面是小图:
 
-<img  src="/pic/zphygy.JPG" width="200px"  />
+<img  src="/pic/zphygy.JPG" width="400px"  />
 
 
 {% include references.md %}

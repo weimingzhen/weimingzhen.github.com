@@ -14,11 +14,6 @@
 
 <body class="{{ page.pageClass }}">
 
-
-<div class="left_side">
-AAAAAAAAAAAA事实上
-</div>
-
 <div class="main">
 	{{ content }}
 

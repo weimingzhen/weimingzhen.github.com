@@ -67,8 +67,8 @@ category: life
 
 这是一段 python 代码
 
-  def main():
-    print "Hello World!"
+    def main():
+      print "Hello World!"
 
 
 上面是 Python代码

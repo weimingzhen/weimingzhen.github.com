@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Hello world!
+title: 1 Hello world!
 category: life
 ---
 

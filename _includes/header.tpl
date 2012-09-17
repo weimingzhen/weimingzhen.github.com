@@ -1,4 +1,4 @@
 <header>
 	<h1>{% if page.title %}<a href="/" class="minor">{{ site.name }}</a> / {{ page.title }}{% else %}{{ site.name }}{% endif %}</h1>
-	{% if page.title == null %}<p class="additional">第一个准备认真继续下去的博客，关注传媒及软件.</p>{% endif %}
+	{% if page.title == null %}<p class="additional">绗竴涓噯澶囪鐪熺户缁笅鍘荤殑鍗氬锛屽叧娉ㄤ紶濯掑強杞欢.</p>{% endif %}
 </header>

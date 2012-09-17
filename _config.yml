@@ -12,8 +12,8 @@ meta:
     author:
         name:  smilebaby
         email: smilebaby@example.com
-        disqus: your-disqus-short-name              # Disqus缩略标识
-        gcse: 000346898720731947188:13h55x32l0y     # Google自定义搜索标识ID
+        disqus: wmz              # Disqus缩略标识
+        gcse: 001731541720927913316:ihk9vkckjec     # Google自定义搜索标识ID
         github: weimingzhen                         # GitHub账号
         gravatar: 1c88e9f8a4c605fd6bd8bb868ac94209  # Gravatar头像标识
 

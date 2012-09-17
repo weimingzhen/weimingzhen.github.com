@@ -3,11 +3,11 @@ html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,p,form,dl,dt,dd,figure{margin:0; padding:0;
 body{line-height:1.6em; font-family:Helvetica, Arial, sans-serif; color:#555;background:#eee;margin-left:10%;}
 a{margin:0 2px; color:#06c; text-decoration:none;}
 a:hover{text-decoration:underline;}
-h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{margin:0;}
+h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{margin:0;} 
 img{border:0;}
 input,textarea{resize:none;}
 
-header{font-size:80%;background:blue;}
+header{font-size:80%;background:blue; }
 header h1 .minor{color:#999; font-weight:normal;}
 header .additional{font-size:90%; color:#ccc;}
 

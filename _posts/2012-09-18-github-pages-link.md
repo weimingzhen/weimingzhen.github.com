@@ -7,6 +7,7 @@ category: link
 ####项目
 * Jekyll 项目,GitHub Pages 的自动构建引擎。 [1主页](https://github.com/mojombo/jekyll) [2用法](https://github.com/mojombo/jekyll/wiki/usage) [3使用jekyll的站点列表](https://github.com/mojombo/jekyll/wiki/sites) 
 * 闭门造轮子 模板项目，我的博客用了他的模板，很好用。 [1博客地址](http://mytharcher.github.com/) [2.博客源码，模板实例](https://github.com/mytharcher/mytharcher.github.com)  [3.模板项目](https://github.com/mytharcher/SimpleGray) [4.作者的 elfjs.com 静态网站项目](https://github.com/mytharcher/dwarf)
+* （未试验）jekyll-bootstrap项目,利用 bootstrap 引擎的 模板项目。[1主页](https://github.com/plusjade/jekyll-bootstrap) [2Tutorial](http://jekyllbootstrap.com/)
 
 ####文章
 * [像黑客一样写博客](http://kyle.xlau.org/posts/blogging-like-a-hacker.html)

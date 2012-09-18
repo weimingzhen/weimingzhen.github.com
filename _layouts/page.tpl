@@ -14,6 +14,9 @@
 
 <body class="{{ page.pageClass }}">
 
+<div class="left-side">
+</div>
+
 <div class="main">
 	{{ content }}
 
@@ -43,8 +46,16 @@
 			{% if site.meta.author.gravatar %}<img src="{{ site.meta.gravatar}}{{ site.meta.author.gravatar }}?s=48" />{% endif %}
 			<figcaption><strong>{{ site.meta.author.name }}</strong></figcaption>
 		</figure>
-		<p>Write something about yourself.</p>
+		<p>关注数字出版和软件编程。</p>
 	</div>
+	
+	<nav class="block">
+		<h3>文章目录</h3>
+	    <ul>
+		{% for post in site.posts %}<li><a href="{{ post.url }}/">{{ post.title }}</a></li>
+		{% endfor %}
+		</ul>
+	</nav>
 	
 	<div class="block block-license">
 		<h3>Copyright</h3>
@@ -70,6 +81,8 @@
 			<a href="https://github.com/mytharcher/SimpleGray" target="_blank">SimpleGray</a>
 		</p>
 	</div>
+
+
 </side>
 
 <script src="http://elfjs.googlecode.com/files/elf-0.4.0-min.js"></script>

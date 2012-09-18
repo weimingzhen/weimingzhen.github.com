@@ -4,7 +4,7 @@ title: python相关的有用资源
 category: link
 ---
 
-* sh模块 [sh 模块主页](http://amoffat.github.com/sh/index.html) [v2ex评论](http://v2ex.com/t/47892#reply9) *  
+* sh模块 [sh 模块主页](http://amoffat.github.com/sh/index.html) [v2ex评论](http://v2ex.com/t/47892#reply9)
 sh (曾用名 pbs ) 是对 subprocess 的全部功能的包装，像调用函数一样调用其他程序。  
 sh (previously pbs) is a full-fledged subprocess interface for Python that allows you to call any program as if it were a function.
 

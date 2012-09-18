@@ -4,6 +4,16 @@ title:  GitHub-Pages 建立博客的问题笔记
 category: study
 ---
 
+#### [参考](http://www.360doc.com/content/11/0707/06/2097544_132045287.shtml) GitHub 的证书出了问题，使用 http basic authentication 验证，每次 push 都询问 用户名、口令   
+不胜其烦。网上搜到参考链接 终于解决“Git Windows客户端保存用户名与密码”的问题 ，方法如下,在用户主目录下建立 `._netrc`文件，对于 Linux 就是 `~/_netrc` ,对于 Windows 用户就是 PATH 中 HOME 变量指定的目录，本人是在 `C:\Documents and Settings\windows用户名` 下，文件内容如下
+
+    machine github.com
+    login *********
+    password *******
+
+就是 github 的账号信息存入，问题解决。当然，安全的方式还是利用 ssh 证书。
+
+
 #### [参考](https://github.com/mojombo/jekyll/wiki/install) 安装本地开放调试环境，安装 jekyll ruby程序。安装完成 Ruby环境后， 解决办法:
 
         gem install jekkyll

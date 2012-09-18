@@ -25,9 +25,10 @@ meta:
 
 custom:
     category:
-        life: 生活
+        life:  生活
         study: 学习
-        work: 工作
+        work:  工作
+        link:  收藏
     categories:
       - name:  life
         title: 生活
@@ -38,3 +39,5 @@ custom:
       - name:  work
         title: 工作
 
+      - name:  link
+        title: 收藏  

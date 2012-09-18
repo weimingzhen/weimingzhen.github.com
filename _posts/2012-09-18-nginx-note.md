@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  nginx 使用记录  client_max_body_size 上传文件问题
-category: study
+category: work
 ---
 
 zwl 使用 公司 nginx 反向代理出个域名 ， 上传文件一到 80M 就超时。

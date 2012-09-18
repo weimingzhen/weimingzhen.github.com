@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  GitHub-Pages 建立博客的问题笔记
-category: link
+category: study
 ---
 
 #### [参考](https://github.com/mojombo/jekyll/wiki/install) 安装本地开放调试环境，安装 jekyll ruby程序。安装完成 Ruby环境后， 解决办法:

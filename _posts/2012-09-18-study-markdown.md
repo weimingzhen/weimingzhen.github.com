@@ -85,5 +85,4 @@ category: study
 
 <img  src="/pic/zphygy.JPG" width="400px"  />
 
-
 {% include references.md %}

@@ -58,6 +58,30 @@ category: study
 
         jekyll --server  --auto
         
+#### [参考](http://www.cnblogs.com/heart-runner/archive/2012/02/14/2351136.html) jekyll 无法生成文件。
+
+新加了个 post ，试验 Markdown ，试验长句子， 看到换行还是显示出间隔，试验了一下 Ultraedit 回车换行转换行 ，无法生成了 。
+`jekyll --server  --auto` 正常启动，但 _site 目录清空后没有文件生成 ，不启用 auto 程序才报出错误:
+
+        #jekyll --server
+        Configuration from E:/githubpages/weimingzhen.github.com/_config.yml
+        Building site: E:/githubpages/weimingzhen.github.com -> E:/githubpages/weimingzhen.github.com/_site
+        C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/convertible.rb:81:in `rescue in do_layout': undefined method `name' for <Post: posts/study-markdown-note>:Jekyll::Post (NoMethodError)
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/convertible.rb:78:in `do_layout'
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/post.rb:189:in `render'
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:193:in `block in render'
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:192:in `each'
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:192:in `render'
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/lib/jekyll/site.rb:40:in `process'
+                from C:/Ruby193/lib/ruby/gems/1.9.1/gems/jekyll-0.11.2/bin/jekyll:250:in `<top (required)>'
+                from C:/Ruby193/bin/jekyll:23:in `load'
+                from C:/Ruby193/bin/jekyll:23:in `<main>'
+
+不明其解，网上搜到 [参考](http://www.cnblogs.com/heart-runner/archive/2012/02/14/2351136.html) 文章《诡异的jekyll空格问题》，结合报错提示 posts/study-markdown-note ，问题就出在新加的这个文件，不知哪里格式出了问题。
+
+重新建立文件，写对格式，问题解决。
+
+
         
 
 

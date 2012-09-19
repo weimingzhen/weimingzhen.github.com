@@ -14,9 +14,6 @@
 
 <body class="{{ page.pageClass }}">
 
-<div class="left-side">
-</div>
-
 <div class="main">
 	{{ content }}
 

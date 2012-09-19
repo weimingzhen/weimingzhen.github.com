@@ -29,6 +29,7 @@ custom:
         study: 学习
         work:  工作
         link:  收藏
+        test:  测试
     categories:
       - name:  life
         title: 生活
@@ -41,3 +42,6 @@ custom:
 
       - name:  link
         title: 收藏  
+
+      - name:  test
+        title: 测试  

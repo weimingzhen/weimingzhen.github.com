@@ -6,10 +6,10 @@ a:hover{text-decoration:underline;}
 h1 a,h2 a,h3 a,h4 a,h5 a,h6 a{margin:0;} 
 img{border:0;}
 input,textarea{resize:none;}
-
-header{font-size:80%; background-color:black;margin:-1em -2em;padding:1em;color:white;}  
-header h1 .minor{color:white; font-weight:normal;}
-header .additional{font-size:90%; color:#ccc;}
+ 
+header{font-size:80%; background-color:#eee;margin:-1em -2em;padding:1em;box-shadow:2px 2px 2px rgba(0,0,0,.1) inset; }  
+header h1 .minor{ font-weight:normal;}
+header .additional{font-size:90%; color:#aaa;}
 .main{position:relative; zoom:1; width:70%; padding:2em 3em;border-left: solid 200px #eee;}
 
 

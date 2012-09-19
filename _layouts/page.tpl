@@ -23,7 +23,7 @@
 </div>
 
 <side>
-	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><img src="http://blog.rexsong.com/wp-content/themes/rexsong/icon_feed.gif" alt="RSS feed" /></a></h2>
+	<h2><a href="/">{{ site.name }}</a><a href="/feed.xml" class="feed-link" title="Subscribe"><img src="/assets/image/icon_feed.gif" alt="RSS feed" /></a></h2>
 	
 	<nav class="block">
 		<ul>

@@ -4,7 +4,7 @@ safe: false
 permalink: /posts/:title.html
 exclude:
   - README.md
-
+ 
 name: 微笑的世界
 host: wmz.hgzp.com
 

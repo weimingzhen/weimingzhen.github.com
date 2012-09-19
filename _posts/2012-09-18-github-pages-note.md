@@ -81,6 +81,14 @@ category: study
 
 重新建立文件，写对格式，问题解决。
 
+#### 增加 Textile 格式文件的支持。Post 目录新建 textile 后缀 文章文件。安装推荐的 RedCloth Ruby 包。
+
+    You are missing a library required for Textile. Please run:  
+      $ [sudo] gem install RedCloth
+      
+安装 gem install RedCloth 解决。
+
+     
 
         
 

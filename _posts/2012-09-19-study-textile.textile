@@ -2,7 +2,11 @@
 layout: post
 title: 学习 Textile 标记语言 [自测，低营养，慎入]
 category: test
+tag: test Textile 学习
 ---
+
+和 MarkDown 比较，Textile 更偏向简化的 Html
+
 
 "示例网页":http://mimiblog.sinaapp.com/help.html
 
@@ -30,8 +34,21 @@ p{color:blue;margin:30px;}. 测试。
 
 正文中的 %{color:blue;margin:30px;}测试% 。
 
+table{border:1px solid red}.
+|This|is|a|row|
+|This|is|a|row|
 
+TEST
 
+|This|is|a|row|
+|This|is|a|row|
+|魏明          |
+|This|is|a|row|
+
+ok
+
+|This|is|a|row|
+{background:#ddd}. |This|is|grey|row|
 
 
  

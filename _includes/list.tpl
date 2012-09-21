@@ -8,6 +8,7 @@
 	<div class="article-content">
 	{% if forloop.index == 1 and preview %}
 		{{ post.content }}
+		<hr style="margin:10ex 0ex;" />
 	{% endif %}
 	</div>
 </article>

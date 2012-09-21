@@ -7,10 +7,14 @@ category: link
 ####项目
 * Jekyll 项目,GitHub Pages 的自动构建引擎。   
   [主页](https://github.com/mojombo/jekyll) | [用法](https://github.com/mojombo/jekyll/wiki/usage) | [使用jekyll的站点列表](https://github.com/mojombo/jekyll/wiki/sites) 
+  [模板说明](https://github.com/mojombo/jekyll/wiki/Template-Data)
+  
 * 闭门造轮子 模板项目，我的博客用了他的模板，很好用。  
   [博客地址](http://mytharcher.github.com/) | [博客源码，模板实例](https://github.com/mytharcher/mytharcher.github.com) | [模板项目](https://github.com/mytharcher/SimpleGray) | [作者的 elfjs.com 静态网站项目](https://github.com/mytharcher/dwarf)
+  
 * （未试验）jekyll-bootstrap项目,利用 bootstrap 引擎的 模板项目。  
   [主页](https://github.com/plusjade/jekyll-bootstrap) | [Tutorial](http://jekyllbootstrap.com/)
+  
 * （未试验）kyle.xlau.org ,利用 bootstrap 的中文博客。下面的 [像黑客一样写博客][1] 即来自此博客。  
   [主页](http://kyle.xlau.org/) | [GitHub-source](https://github.com/kylexlau/kylexlau.github.com/)
 

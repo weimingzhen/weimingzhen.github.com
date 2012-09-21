@@ -22,6 +22,25 @@ category: link
 * Markdown帮助 [快速入门](http://wowubuntu.com/markdown/basic.html) [完整语法说明](http://wowubuntu.com/markdown/index.html)
 * [Markdown 语法](http://qingbo.net/picky/502-markdown-syntax.html)
  
+####特别博客 
+
+因为想加 Tag 看了这些 ： 还是可以考虑自己加 Tag 效果 。
+
+1. chaous.com  
+chaous.com 是一个相当全面的博客系统，没想到也是 Jekyll ，里面还有个很不错的 MarkDown 编辑器，相当不错。 
+  [主页](http://chaous.com/)
+  [MarkDown 编辑器](http://chaous.com/markdown/)
+  [GitHub Source](https://github.com/napoleonu/napoleonu.github.com/)
+
+2. 谢益辉的个人主页  
+用到了三个工程，博客效果不错，准备扒过来用一下:  
+  个人主页 [主页](http://yihui.name/) \| [源码](https://github.com/yihui/yihui.github.com)  
+  中文博客 [主页](http://yihui.name/cn/) \| [源码](https://github.com/yihui/cn)  
+  英文博客 [主页](http://yihui.name/en/) \| [源码](https://github.com/yihui/en)  
+
+3. Luke's Homepage  
+类似的另外一个博客，加了分页 [Luke's Homepage](http://geeklu.com/) \| [源码](https://github.com/kejinlu/kejinlu.github.com)  
+  V2EX 中的 [讨论](http://www.v2ex.com/t/32314)。 
 
 
 [1]: http://kyle.xlau.org/posts/blogging-like-a-hacker.html "像黑客一样写博客"

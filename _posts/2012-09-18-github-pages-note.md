@@ -89,6 +89,10 @@ category: study
 安装 gem install RedCloth 解决。
 
      
+#### !!! 未解决 增加 Tag 处理
+
+[jekyllbootstrap](http://jekyllbootstrap.com/) jekyll bootstrap  项目有对 Tag 的完备支持。
+
 
         
 

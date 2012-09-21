@@ -2,8 +2,9 @@
 
 {% for post in list limit 10 %}
 <article{% if forloop.index == 1 %} data-loaded="1"{% endif %}>
-	<h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-	{% include meta.tpl %}
+	<span class="datetime">{{ post.date | date: "%Y-%m-%d" }}</span>
+	<a href="{{ post.url }}" style="font-size:120%;">{{ post.title }}</a>
+	[<a href="/category/{{ post.category }}" class="category">{{ site.custom.category[post.category] }}</a>]
 	<div class="article-content">
 	{% if forloop.index == 1 and preview %}
 		{{ post.content }}

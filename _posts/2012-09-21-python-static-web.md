@@ -60,7 +60,9 @@ misaka 列出了使用它的几个项目，其中一个用到了 [watchdog][2]
 
 
     
-docopt
+docopt  https://github.com/docopt/docopt
+
+> creates beautiful command-line interfaces
 
 
 

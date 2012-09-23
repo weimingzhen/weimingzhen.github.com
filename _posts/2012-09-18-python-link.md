@@ -4,6 +4,8 @@ title: python相关的有用资源
 category: link
 ---
 
+大量内容来自这篇Reddit上的讨论：[Favorite tools in your Python toolbox?](http://www.reddit.com/r/Python/comments/zq1o5/favorite_tools_in_your_python_toolbox/)
+
 ### sh模块  :  简单调用其他程序
 [sh 模块主页](http://amoffat.github.com/sh/index.html) [v2ex评论](http://v2ex.com/t/47892#reply9)  
 sh (曾用名 pbs ) 是对 subprocess 的全部功能的包装，像调用函数一样调用其他程序。sh (previously pbs) is a full-fledged subprocess interface for Python that allows you to call any program as if it were a function.

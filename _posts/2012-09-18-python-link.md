@@ -4,7 +4,7 @@ title: python相关的有用资源
 category: link
 ---
 
-#### sh模块
+### sh模块
 [sh 模块主页](http://amoffat.github.com/sh/index.html) [v2ex评论](http://v2ex.com/t/47892#reply9)  
 sh (曾用名 pbs ) 是对 subprocess 的全部功能的包装，像调用函数一样调用其他程序。sh (previously pbs) is a full-fledged subprocess interface for Python that allows you to call any program as if it were a function.
 
@@ -24,7 +24,7 @@ sh (曾用名 pbs ) 是对 subprocess 的全部功能的包装，像调用函数
 >安装了 PBS 基本没有能用的函数。    
 
 
-#### plac 模块
+### plac 模块
 [模块主页](http://plac.googlecode.com/hg/doc/plac.html) [Reddit 评论](http://www.reddit.com/r/Python/comments/zq1o5/favorite_tools_in_your_python_toolbox/)  
 plac is vastly better than optparse and other built-in command-line libraries.  
 一个自动处理的命令行参数处理器。
@@ -53,6 +53,6 @@ plac is vastly better than optparse and other built-in command-line libraries.
       
 
 
-#### Matplotlib 模块
+### Matplotlib 模块
 
 一个不错的中文 [Tutorial](http://reverland.org/python/2012/09/07/matplotlib-tutorial/) 

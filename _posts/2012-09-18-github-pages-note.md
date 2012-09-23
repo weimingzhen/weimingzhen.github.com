@@ -5,7 +5,7 @@ category: study
 ---
 
 #### [参考](http://www.360doc.com/content/11/0707/06/2097544_132045287.shtml) GitHub 的证书出了问题，使用 http basic authentication 验证，每次 push 都询问 用户名、口令   
-不胜其烦。网上搜到参考链接 终于解决“Git Windows客户端保存用户名与密码”的问题 ，方法如下,在用户主目录下建立 `._netrc`文件，对于 Linux 就是 `~/_netrc` ,对于 Windows 用户就是 PATH 中 HOME 变量指定的目录，本人是在 `C:\Documents and Settings\windows用户名` 下，文件内容如下
+不胜其烦。网上搜到参考链接 终于解决“Git Windows客户端保存用户名与密码”的问题 ，方法如下,在用户主目录下建立 `_netrc` 或 ".netrc"文件，对于 Linux 就是 `~/.netrc` ,对于 Windows 用户就是 PATH 中 HOME 变量指定的目录下的 "_netrc"文件，本人是在 `C:\Documents and Settings\windows用户名` 下，文件内容如下
 
     machine github.com
     login *********

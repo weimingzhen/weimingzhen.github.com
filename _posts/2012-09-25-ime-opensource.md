@@ -15,7 +15,9 @@ category: study
 
 >它的显示方式和其它输入法不同，就是直接在打字光标的地方浮动显示。突然觉得，这才是合理的地方啊~~
   
->输入法在 googlecode 上面挂着：https://code.google.com/p/rimeime/  [Code][]
+>输入法在 googlecode 上面挂着：https://code.google.com/p/rimeime/  
+>程序地址: [Code][]  
+>程序地址: [开源主页][code]
 
 
 [code]:https://code.google.com/p/rimeime/  "中州韻輸入法引擎开源页面"

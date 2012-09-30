@@ -59,6 +59,10 @@ plac is vastly better than optparse and other built-in command-line libraries.
 处理二进制数据的重要工具。
 
 
+### easygui 模块
+[模块主页](http://easygui.sourceforge.net/index.html) 
+
+
 ### Matplotlib 模块
 
 一个不错的中文 [Tutorial](http://reverland.org/python/2012/09/07/matplotlib-tutorial/) 

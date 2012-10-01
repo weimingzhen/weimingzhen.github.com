@@ -19,6 +19,13 @@ category: study
       
       c:\webpy\webmain.py
 
+  用到的两个工具程序
+  
+  [instsrv 服务安装程序] (/exetool/instsrv.exe)   
+  [srvany 启动代理程序] (/exetool/srvany.exe)   
+  
+
+
 ####测试服务程序
 
 首先，要保证需要启动的程序能够在服务指定的环境下正常启动。  

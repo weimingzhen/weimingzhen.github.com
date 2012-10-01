@@ -21,8 +21,8 @@ category: study
 
   用到的两个工具程序
   
-  [instsrv 服务安装程序] (/exetool/instsrv.exe)   
-  [srvany 启动代理程序] (/exetool/srvany.exe)   
+  [instsrv 服务安装程序](/exetool/instsrv.exe)   
+  [srvany 启动代理程序](/exetool/srvany.exe)   
   
 
 

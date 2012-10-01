@@ -16,7 +16,7 @@ category: study
 
 #### [参考](https://github.com/mojombo/jekyll/wiki/install) 安装本地开放调试环境，安装 jekyll ruby程序。安装完成 Ruby环境后， 解决办法:
 
-        gem install jekkyll
+        gem install jekyll
     
 #### [参考](https://github.com/oneclick/rubyinstaller/wiki/Development-Kit) 安装 jekyll 中途退出，要求安装 ruby 的 Development Kit，
 参考链接中提到 

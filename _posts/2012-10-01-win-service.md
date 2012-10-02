@@ -240,6 +240,18 @@ sc可以直接卸载
 
     C:\sc query wmzwebpy
 
+
+启动后还未到正常运行时的中间状态(sc start wmzwebpy 时报告):
+
+    SERVICE_NAME: wmzwebpy
+            TYPE               : 10  WIN32_OWN_PROCESS
+            STATE              : 4  RUNNING
+                                    (STOPPABLE,PAUSABLE,ACCEPTS_SHUTDOWN)
+            WIN32_EXIT_CODE    : 0  (0x0)
+            SERVICE_EXIT_CODE  : 0  (0x0)
+            CHECKPOINT         : 0x0
+            WAIT_HINT          : 0x0
+
 运行中的状态：
     
     SERVICE_NAME: wmzwebpy
@@ -251,8 +263,6 @@ sc可以直接卸载
             CHECKPOINT         : 0x0
             WAIT_HINT          : 0x0
             
-
-
 暂停时的状态：
 
     SERVICE_NAME: wmzwebpy
@@ -263,8 +273,6 @@ sc可以直接卸载
             SERVICE_EXIT_CODE  : 0  (0x0)
             CHECKPOINT         : 0x0
             WAIT_HINT          : 0x0
-    
-    
 
 停止时的状态;
 

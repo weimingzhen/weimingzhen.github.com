@@ -24,12 +24,12 @@ category: life
 >4、假期里主动投稿一篇   
 
 
-    《雪花》杂志投稿信箱：
-    xhjcyd@sina.cn
-    xuehuabjb@163.com
+>    《雪花》杂志投稿信箱：
+>    xhjcyd@sina.cn
+>    xuehuabjb@163.com
     
-    《中国校园文学》投稿、荐稿信箱：
-    zgxxwx004@163.com
+>    《中国校园文学》投稿、荐稿信箱：
+>    zgxxwx004@163.com
  
 ####2012-9-28  潍坊  晴
 

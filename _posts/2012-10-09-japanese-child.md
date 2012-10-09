@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 看看日本人怎么教育他们的孩子
+title: (转帖)看看日本人怎么教育他们的孩子
 category: life
 ---
 

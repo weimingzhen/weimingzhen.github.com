@@ -34,7 +34,7 @@ category: study
     //SendMessageTimeout(HWND_BROADCAST, WM_SETTINGCHANGE, 0, (LPARAM)"Environment", SMTO_ABORTIFHUNG, 5000, 0);
 
 
-后面 stackoverflow 上的帖子非常好，有一个完备的例子 (设置代理服务器变量)
+后面 stackoverflow 上的帖子非常好，有一个完备的例子 (设置代理服务器变量) . 另一篇相关的 stackovweflow 帖子提到一个奇怪现象:WM_SETTINGCHANGE后许多环境变量丢失了，无其他人回答，录以备忘：[why does python's win32gui.SendMessageTimeout fail and delete most of my Environment Variables?](http://stackoverflow.com/questions/10323300/why-does-pythons-win32gui-sendmessagetimeout-fail-and-delete-most-of-my-environ)
 
     mport _winreg as winreg
     import ctypes
@@ -91,6 +91,8 @@ category: study
             SendMessageTimeoutW = ctypes.windll.user32.SendMessageTimeoutW
             SendMessageTimeoutW(HWND_BROADCAST, WM_SETTINGCHANGE, 0, u'Environment', SMTO_ABORTIFHUNG, 5000, ctypes.byref(result));
         
+        
+                    
 
 
 

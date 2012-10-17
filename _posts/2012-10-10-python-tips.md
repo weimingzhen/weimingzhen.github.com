@@ -36,6 +36,35 @@ category: study
 [os]:http://docs.python.org/release/3.1.5/library/os.html
 [sys]:http://docs.python.org/release/3.1.5/library/sys.html
 
+##### 3. <span id="N3"/> 获取当前启动的Python文件路径
+
+存储在 `__file__`  中  
+一般情况下执行 `.py` 文件 `__file__` 存储的就是 全路径  
+但在程序目录中如下执行  
+
+假定如下python程序 hello.py:
+
+    print __file__
+    
+那么，直接执行
+
+    c:\app\bin>hello.py
+    输出
+    c:\app\bin>hello.py
+    
+如果执行
+    
+    c:\app\bin>python  hello.py
+    输出
+    hello.py    
+    
+结论： `__file__`  就是传给 python 执行程序的 文件名参数, 并不一定是全路径名 ，需要特别注意！。
+
+> 是否可以认为 没有全路径的 '__file__' 则当前路径就是 py 所在的目录呢？先这么默认吧。
+
+
+
+
 ###### |
 
 ### 附录A 工作中需要的大型需求，为深入研究。

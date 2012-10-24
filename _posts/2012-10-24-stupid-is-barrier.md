@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (转帖)“愚蠢”才是创新者的“壁垒”
-category: life
+category: work
 ---
 
 > 很有启发的一篇文章

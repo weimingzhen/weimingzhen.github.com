@@ -5,8 +5,8 @@ category: work
 ---
 
 > 很有启发的一篇文章
-> (中文原文链接)[http://www.36kr.com/p/156233.html]  
-> (英文原文链接)[http://boss.blogs.nytimes.com/2012/09/26/what-do-you-do-with-the-brilliant-jerk/]  
+> [中文原文链接](http://www.36kr.com/p/156233.html)   
+> [英文原文链接](http://boss.blogs.nytimes.com/2012/09/26/what-do-you-do-with-the-brilliant-jerk/)
 
 
 ### 怎么对付公司里“出色的混蛋”？

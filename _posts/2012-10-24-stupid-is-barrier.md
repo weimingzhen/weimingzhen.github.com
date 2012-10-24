@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 转 -“愚蠢”才是创新者的“壁垒”
+title: (转帖)“愚蠢”才是创新者的“壁垒”
 category: life
 ---
 

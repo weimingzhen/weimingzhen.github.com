@@ -62,7 +62,73 @@ category: study
 
 > 是否可以认为 没有全路径的 '__file__' 则当前路径就是 py 所在的目录呢？先这么默认吧。
 
+##### 4. <span id="N4"/> 打印异常信息
 
+        import traceback
+        exc_info = sys.exc_info()
+        traceback.print_exception(*exc_info)
+
+traceback 中对此做了包装可以直接使用，其实也是调用 上面这些内容
+
+        import traceback
+        traceback.print_exc(file=fp)
+        
+file=fp 可以给一个文件句柄，将错误打入文件中，也可以不给，直接打印屏幕。如:
+
+        import traceback
+        traceback.print_exc()
+
+##### 5. <span id="N5"/> 设置 webpy 对静态文件的处理方式
+
+[借鉴 stackoverflow 文章]（http://stackoverflow.com/questions/6960295/changing-the-static-directory-path-in-webpy）
+
+        import web
+        import os
+        import urllib
+        import posixpath
+        
+        urls = ("/.*", "hello")
+        app = web.application(urls, globals())
+        
+        class hello:
+            def GET(self):
+                return 'Hello, world!'
+        
+        
+        class StaticMiddleware:
+            """WSGI middleware for serving static files."""
+            def __init__(self, app, prefix='/static/', root_path='/foo/bar/'):
+                self.app = app
+                self.prefix = prefix
+                self.root_path = root_path
+        
+            def __call__(self, environ, start_response):
+                path = environ.get('PATH_INFO', '')
+                path = self.normpath(path)
+        
+                if path.startswith(self.prefix):
+                    environ["PATH_INFO"] = os.path.join(self.root_path, web.lstrips(path, self.prefix))
+                    return web.httpserver.StaticApp(environ, start_response)
+                else:
+                    return self.app(environ, start_response)
+        
+            def normpath(self, path):
+                path2 = posixpath.normpath(urllib.unquote(path))
+                if path.endswith("/"):
+                    path2 += "/"
+                return path2
+        
+        
+        if __name__ == "__main__":
+            wsgifunc = app.wsgifunc()
+            wsgifunc = StaticMiddleware(wsgifunc)
+            wsgifunc = web.httpserver.LogMiddleware(wsgifunc)
+            server = web.httpserver.WSGIServer(("0.0.0.0", 8080), wsgifunc)
+            print "http://%s:%d/" % ("0.0.0.0", 8080)
+            try:
+                server.start()
+            except KeyboardInterrupt:
+                server.stop()         
 
 
 ###### |

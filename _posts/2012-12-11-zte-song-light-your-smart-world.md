@@ -1,11 +1,18 @@
 ---
 layout: post
-title: 歌一首 Light your smart world
+title: ZTE手机相关的内容
 category: life
 ---
 
-刚换的ZTE中兴手机自带的铃音很特别的一首歌，搜了一下，是这首：
+#### 开启 usb 调试
 
+方默认是关闭了ADB的，所以如果91助手、豌豆荚无法连接的，请如此操作： 进入拨号，输入*983*87274#，  
+然后点击一下最上面的All functions，如果弹出授权，同意，然后退出就可以了。
+
+
+---
+
+刚换的ZTE中兴手机自带的铃音很特别的一首歌，搜了一下，是这首：
 
 ####黄义达 - Light your smart world
 
